@@ -30,21 +30,19 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 		 <configuration>
-    <cloudHubDeployment>
-      <uri>https://anypoint.mulesoft.com</uri>
-      <muleVersion>4.4.0</muleVersion>
-      <username>satya5030</username>
-      <password>Bajji@143</password>
-      <applicationName>jenkin154</applicationName>
-      <environment>Sandbox</environment>
-      <region>us-east-1</region>
-      <workers>1</workers>
-      <workerType>MICRO</workerType>
-      <properties>
-        <key>value</key>
-      </properties>
-    </cloudHubDeployment>
-  </configuration>
+					<armDeployment>
+						<muleVersion>4.4.0}</muleVersion>
+						<uri>https://anypoint.mulesoft.com</uri>
+						<target>mule-agent</target>
+						<targetType>Gateway</targetType>
+						<username>satya5030</username>
+						<password>Bajji@143</password>
+						<environment>Sandbox</environment>
+						<properties>
+							<key>value</key>
+						</properties>
+					</armDeployment>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
