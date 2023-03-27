@@ -35,7 +35,7 @@
 						<uri>https://anypoint.mulesoft.com</uri>
 						<target>mule-agent</target>
 						<targetType>Gateway</targetType>
-						<username>satya5030</username>
+						<username>satya-feb</username>
 						<password>Bajji@143</password>
 						<environment>Sandbox</environment>
 						<properties>
